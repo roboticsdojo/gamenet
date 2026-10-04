@@ -1,1 +1,12 @@
 site_name: My Docs
+
+
+site_name: Robotics Dojo Gamenet
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - OpenWrt Setup:
+    - Flashing Firmware: openwrt/flashing.md
+    - ROS2 Multicast Config: openwrt/ros2-discovery.md
+  - Connecting Robots: robots/connection-guide.md

@@ -7,7 +7,9 @@ authors = [
     { name = "Lenny Ng'ang'a", email = "codewithlennylen254@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "mkdocs-material>=9.7.7",
+]
 
 [project.scripts]
 gamenet = "gamenet:main"
